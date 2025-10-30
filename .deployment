@@ -1,2 +1,2 @@
 [config]
-command = npm ci && npm run build && cp -r dist/* ./
+command = npm install && npm run build && cp -r dist/* ./
