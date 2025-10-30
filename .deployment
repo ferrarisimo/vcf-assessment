@@ -1,2 +1,2 @@
 [config]
-command = npm ci && npm run build && rm -rf /home/site/wwwroot/* && cp -r dist/* /home/site/wwwroot/
+command = npm ci && npm run build && cp -r dist/* ./
