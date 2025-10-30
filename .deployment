@@ -1,2 +1,2 @@
 [config]
-command = npm install && npm run build && cp -r dist/* ./
+command = /bin/bash -c "npm install && npm run build && cp -r dist/* ./"
